@@ -1,0 +1,8 @@
+# Contoh konfigurasi lokal (file local.properties akan dibuat otomatis oleh Android Studio).
+# Jangan mengunggah file local.properties ke repository GitHub Public.
+#
+# Lokasi Android SDK di komputer lokal Anda:
+# sdk.dir=C\:\\Users\\<Username>\\AppData\\Local\\Android\\Sdk
+#
+# (Opsional) Token otorisasi backend apabila server memerlukan Bearer token:
+# ACCESS_TOKEN="isi_token_disini"

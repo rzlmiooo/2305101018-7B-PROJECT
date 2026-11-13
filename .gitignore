@@ -1,0 +1,48 @@
+# Gradle & Build outputs
+.gradle/
+**/.gradle/
+build/
+**/build/
+captures/
+**/captures/
+.cxx/
+**/.cxx/
+.externalNativeBuild/
+**/.externalNativeBuild/
+.kotlin/
+**/.kotlin/
+
+# Local configuration & secrets (jangan pernah di-commit)
+local.properties
+**/local.properties
+*.keystore
+*.jks
+.env
+**/.env
+
+# Android Studio / IntelliJ IDE files
+*.iml
+.idea/caches/
+**/.idea/caches/
+.idea/libraries/
+**/.idea/libraries/
+.idea/modules.xml
+**/.idea/modules.xml
+.idea/workspace.xml
+**/.idea/workspace.xml
+.idea/navEditor.xml
+**/.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+**/.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+**/.idea/deploymentTargetSelector.xml
+.idea/vcs.xml
+**/.idea/vcs.xml
+
+# APK / AAB artifacts (didistribusikan melalui GitHub Releases)
+*.apk
+*.aab
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
